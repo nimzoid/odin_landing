@@ -1,0 +1,19 @@
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 10px 10px;
+}
