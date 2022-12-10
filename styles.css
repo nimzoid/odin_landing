@@ -1,3 +1,7 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -13,9 +17,10 @@
 }
 
 .header-links {
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
-    gap: 10px;
+    gap: 18px;
 }
 
 .banner {
@@ -31,7 +36,7 @@
     font-size: 18px;
     color: #e5e7eb;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
 }
 
@@ -50,7 +55,13 @@
 button {
     background-color: #3882f6;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.middle {
+    margin: 30px;
 }
 
 .info {
@@ -61,7 +72,7 @@ button {
     padding: 20px;
 }
 
-.middle {
+.images {
     display: flex;
     justify-content: center;
 }
@@ -69,6 +80,7 @@ button {
 .icon {
     height: 120px;
     width: auto;
+    border-radius: 25px;
 }
 
 .pics {
@@ -99,4 +111,39 @@ button {
     font-size: 20px;
     font-weight: 700;
     align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    margin: 60px auto;
+    padding: 30px;
+    width: 600px;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bottom {
+    color: white;
+}
+
+.action button {
+    border-color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
